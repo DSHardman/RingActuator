@@ -1,4 +1,4 @@
-load('Extracted/ramptrap3.mat');
+load('Extracted/Geometries/ramptrap3.mat');
 x = x(50:end-50);
 plot(0:0.00001:59.99901, x, 'LineWidth', 3, 'Color', 'b');
 set(gca, 'FontSize', 25, 'LineWidth', 2);
