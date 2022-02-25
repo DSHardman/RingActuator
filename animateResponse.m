@@ -25,15 +25,16 @@ for k = 0:length(q)/1000
 end
 
 %%
-q = squareprobe(20:end-20,2);
+%q = squareprobe(20:end-20,2);
+q = undamaged;
 
 v = VideoWriter('matlabvideo');
 v.FrameRate = 50;
 v.Quality = 100;
 open(v);
-for i = 1:2000:length(q)
-    plot(0:0.02:(i-1)/100000, q(1:2000:i), 'Color', 'b', 'LineWidth', 2);
-    axis([0,40,0.62,0.76]);
+for i = 1:2:length(q)
+    plot(0:0.02:(i-1)/100, q(1:2:i), 'Color', 'b', 'LineWidth', 2);
+    axis([0,30,0.5,0.6]);
     set(gca, 'LineWidth', 2, 'FontSize', 15);
     set(gcf, 'Color', 'w');
     xlabel('Time (s)');

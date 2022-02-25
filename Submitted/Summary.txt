@@ -1,0 +1,6 @@
+Summary
+
+
+Please find the attachment for both files, the video, and the accepted conference paper for RoboSoft 2022 but has not published yet. The paper is related to this paper and for the reviewer understanding. 
+
+This video shows the experiments carried on this paper. Each clip has a title for the experiment performed in it. The experiments show the validation of the sensors results. 
